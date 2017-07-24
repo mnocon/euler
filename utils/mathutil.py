@@ -4,6 +4,7 @@ from math import sqrt
 class Math():
     def __init__(self):
         self.primes = {}
+        self.tests()
 
     def is_prime(self, n):
             if n in self.primes:
