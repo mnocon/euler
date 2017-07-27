@@ -1,6 +1,6 @@
 from Euler import Euler
 from utils.timeutil import time_execution
-from utils.mathutil import Math
+from utils.printutil import console_print
 
 class ProblemSolution(Euler):
     @time_execution

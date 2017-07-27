@@ -1,4 +1,4 @@
-from solutions import Problem43 as challenge
+from solutions import Problem44 as challenge
 
 current_challenge = challenge.ProblemSolution()
 current_challenge.run_tests()
