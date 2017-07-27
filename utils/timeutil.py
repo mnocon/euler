@@ -4,7 +4,7 @@ def time_execution(function):
         t0 = time.clock()
         value = function(*args, **kwargs)
         t1 = time.clock()
-        print("Execution time: {:.3f} secs".format(t1 - t0))
+        print("Execution time of {} : {:.3f} secs".format(function.__name__, t1 - t0))
         return value
 
     return wrapper
