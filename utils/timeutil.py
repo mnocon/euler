@@ -1,6 +1,7 @@
 import time
 def time_execution(function):
     def wrapper(*args, **kwargs):
+        print("Start {}".format(function.__name__))
         t0 = time.clock()
         value = function(*args, **kwargs)
         t1 = time.clock()
